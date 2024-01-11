@@ -14,7 +14,7 @@ const Column = ({ column, tasks, columnIndex, onReload }) => {
         >
           <div className="flex justify-between mb-4 rounded bg-gray-200  items-center">
             <div className="flex items-center gap-2">
-              <div className={`${column.color} h-4 w-4  rounded-full`}></div>
+              <div className={`${column?.color} h-4 w-4  rounded-full`}></div>
               <h2 {...columnProvided.dragHandleProps}>{column.name}</h2>
             </div>
             <p className="border bg-gray-100 shadow py-1 px-2 rounded text-sm">
