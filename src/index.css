@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.tasks-container {
+    min-height: 400px !important;
+}
+
+.column-height {
+    height: calc(100vh - 50px);
+}
